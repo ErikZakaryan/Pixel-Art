@@ -1,0 +1,80 @@
+body {
+	margin-left: 25%;
+	font-family: 'Press Start 2P', cursive;
+	width: 550px;
+	background-image: url("imagen.jpg");
+}
+
+h1 {
+	text-align: center;
+}
+
+#container {
+	margin-top: 10px;
+	width: 400px;
+	height: 400px;
+	float: left;
+	margin-left: 30px;
+}
+
+#color-pick {
+	width: 100px;
+	float: left;
+	margin-left: 10px;
+}
+
+.acciones_botones {
+	float: center;
+	height: 50px;
+	margin-top: 10px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+#color-pick div {
+	border-radius: 50px;
+	border: 2px solid black;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	float: left;
+}
+
+button {
+	width: 50px;
+	border: 2px solid #FF6E6E;
+	border-radius: 5px;
+}
+
+input {
+	border-radius: 5px;
+	border: 2px solid #FF6E6E;
+}
+.cell{
+	box-sizing: border-box;
+	float: left;
+}
+
+.cellBorder {
+	outline: 2px solid white;
+}
+
+.select {
+	border: 2px solid black;
+}
+
+.screens {
+	clear: both;
+}
+
+.screens {
+	margin-top: 10px;
+}
+
+.contenedorDeTodo {
+	border: 5px solid black;
+	border-radius: 20px;
+	width: 580px;
+	height: 580px;
+	background-color: white;
+}
